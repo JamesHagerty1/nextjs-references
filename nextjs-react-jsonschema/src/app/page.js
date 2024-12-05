@@ -3,7 +3,8 @@
 
 import Form from '@rjsf/core';
 import validator from '@rjsf/validator-ajv8';
-// Need bootstrap styles for rjsf Form to look right
+// Need bootstrap styles for rjsf Form to look right (unsure  if this works
+// due to an npm install of bootstrap or if this comes with Next)
 import 'bootstrap/dist/css/bootstrap.css'
 import './styles/rjsf.css'
 
