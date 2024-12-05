@@ -1,3 +1,10 @@
+/*
+Useful references:
+https://nextjs.org/docs/13/app/building-your-application/styling/css-modules
+https://rjsf-team.github.io/react-jsonschema-form/docs/quickstart/
+https://rjsf-team.github.io/react-jsonschema-form/docs/api-reference/uiSchema
+*/
+
 // Needs to be a Client Component to use rjsf imports
 'use client';
 
@@ -23,11 +30,12 @@ const schema = {
 
 // Gives divs for individual fields a class, so I can apply styles to them
 const uiSchema = {
+  'ui:classNames': 'rjsf-form',
   name: {
-    'ui:classNames': 'custom-class-name',
+    'ui:classNames': 'rjsf-field',
   },
   age: {
-    'ui:classNames': 'custom-class-age',
+    'ui:classNames': 'rjsf-field',
   },
 };
 

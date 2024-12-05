@@ -2,6 +2,6 @@
 Styles specifically for RJSF forms.
 */
 
-.custom-class-name {
-    margin-bottom: 10px;
+.rjsf-field {
+    margin-bottom: 14px;
 }
