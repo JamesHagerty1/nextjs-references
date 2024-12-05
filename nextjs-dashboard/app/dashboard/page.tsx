@@ -1,5 +1,5 @@
 /*
-/dashboard route root component
+dashboard/ route root component
 */
 
 import { Card } from '@/app/ui/dashboard/cards';
