@@ -3,6 +3,7 @@ Useful references:
 https://nextjs.org/docs/13/app/building-your-application/styling/css-modules
 https://rjsf-team.github.io/react-jsonschema-form/docs/quickstart/
 https://rjsf-team.github.io/react-jsonschema-form/docs/api-reference/uiSchema
+https://rjsf-team.github.io/react-jsonschema-form/docs/json-schema/
 */
 
 // Needs to be a Client Component to use rjsf imports
