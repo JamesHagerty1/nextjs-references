@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <body
         className={``}
       >
-        {/* Bootstrap required for rjsf default Form styles */}
+        {/* Bootstrap required for rjsf/core default Form styles */}
         <link 
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
           rel="stylesheet" 
